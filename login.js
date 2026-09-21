@@ -1,4 +1,4 @@
 function login() {
-  renommer la variable usr
-  console.log("Connexion de " + usr);
+  const username = document.getElementById("username").value;
+  console.log("Connexion de " + username);
 }
